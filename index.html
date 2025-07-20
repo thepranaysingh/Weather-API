@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEATHER APP</title>
+  <link rel="shortcut icon" href="img/weather.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div id="navbar">
+    <a id="logo" href="#"><img src="weather.png"></a>
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">CONTACT US</a>
+    <!-- <input id="city" type="text" placeholder="Type city name">
+    <button class="btn btn-outline-success"type="submit" id="submit">click!</button> -->
+    <div id="box">
+      <input id="city" type="text" placeholder="Type City/Country name">
+       <button class="btn btn-outline-success"type="submit" id="submit">click!</button>
+     </div>
+  </div>
+
+  <u><h1 id="abvcont">WEATHER OF <span id="cityName"></span></h1></u>
+  <div id="containers">
+  
+    <div id="cont1">
+     <h1>TEMPRATURE</h1><hr>
+     <h1 class="temp"style="color: black;"><span id="temp2"></span>°c</h1>
+      
+        <li>Temprature is: <u><span id="temp"></span></li></u>
+        <li>Min temprature is: <u><span id="min_temp"></span></li></u>
+        <li>Max temprature is:<u><span id="max_temp"></span></li></u>
+
+
+
+        </div>
+    <div id="cont2">
+      <h1>HUMIDITY INFO</h1><hr>
+      <h1 class="temp"style="color: black;"><span id="humidity2"></span>%</h1>
+      <li>Cloud PCT is:<u><span id="cloud_pct"></span></li></u>
+      <li>Humidity is :<u><span id="humidity"></span></li></u>
+      <li>Feels like is: <u><span id="feels_like"></span></li></u>
+
+    </div>
+    <div id="cont3">
+      <h1>WIND AND SUN</h1><hr>
+      <h1 class="temp" style="color: rgb(0, 0, 0);"><span id="wind_speed2"></span>KM/H</h1>
+      <li>Wind speed is <u><span id="wind_speed"></span></li></u>
+      <li>Wind degree is <u> <span id="wind_degrees"></span></li></u>
+      <li>Sunrise is <u><span id="sunrise"></span></li></u>
+      <li>Sunset is <u> <span id="sunset"></span></li></u>
+    </div>
+    </div>
+    <div id="cont3">
+      <h1>WIND AND SUN</h1><hr>
+      <h1 class="temp" style="color: rgb(0, 0, 0);"><span id="wind_speed2"></span>KM/H</h1>
+      <li>Wind speed is <u><span id="wind_speed"></span></li></u>
+      <li>Wind degree is <u> <span id="wind_degrees"></span></li></u>
+      <li>Sunrise is <u><span id="sunrise"></span></li></u>
+      <li>Sunset is <u> <span id="sunset"></span></li></u>
+    </div>
+    </div>
+  <div id="sh">
+  <h1><u><b>WEATHER OF COMMON PLACES</b></u></h1>
+</div>
+<div id="table">
+  <table class="table text-center">
+    <thead>
+      <tr>
+        <td></td>
+        <td>cloud_pct</td>
+        <td>feels_like</td>
+        <td>humidity</td>
+        <td>max_temp</td>
+        <td>min_temp</td>
+        <td>sunrise</td>
+        <td>sunset</td>
+         <td>temp</td>
+        <td>wind_degrees</td>
+        <td>wind_speed</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id = "INDIA">
+        <th scope="row" class="text-start">INDIA</th>
+        <td><span class="cloud_pct"></span></td>
+        <td><span class="feels_like"></span></td>
+        <td><span class="humidity"></span></td>
+        <td><span class="max_temp"></span></td>
+        <td><span class="min_temp"></span></td>
+        <td><span class="sunrise"></span></td>
+        <td><span class="sunset"></span></td>
+         <td><span class="temp"></span></td>
+        <td><span class="wind_degrees"></span></td>
+        <td><span class="wind_speed"></span></td>
+      </tr>
+      <tr id = "ABUDHABI">
+        <th scope="row" class="text-start">ABU DHABI</th>
+        <td><span class="cloud_pct"></span></td>
+        <td><span class="feels_like"></span></td>
+        <td><span class="humidity"></span></td>
+        <td><span class="max_temp"></span></td>
+        <td><span class="min_temp"></span></td>
+        <td><span class="sunrise"></span></td>
+        <td><span class="sunset"></span></td>
+        <td><span class="temp"></span></td>
+        <td><span class="wind_degrees"></span></td>
+        <td><span class="wind_speed"></span></td>
+      </tr>
+      <tr id = "NEWYORK">
+        <th scope="row" class="text-start">NEW YORK</th>
+        <td><span class="cloud_pct"></span></td>
+        <td><span class="feels_like"></span></td>
+        <td><span class="humidity"></span></td>
+        <td><span class="max_temp"></span></td>
+        <td><span class="min_temp"></span></td>
+        <td><span class="sunrise"></span></td>
+        <td><span class="sunset"></span></td>
+        <td><span class="temp"></span></td>
+        <td><span class="wind_degrees"></span></td>
+        <td><span class="wind_speed"></span></td>
+      </tr>
+       <tr id = "LONDON">
+        <th scope="row" class="text-start">LONDON</th>
+        <td><span class="cloud_pct"></span></td>
+        <td><span class="feels_like"></span></td>
+        <td><span class="humidity"></span></td>
+        <td><span class="max_temp"></span></td>
+        <td><span class="min_temp"></span></td>
+        <td><span class="sunrise"></span></td>
+        <td><span class="sunset"></span></td>
+        <td><span class="temp"></span></td>
+        <td><span class="wind_degrees"></span></td>
+        <td><span class="wind_speed"></span></td>
+      </tr>
+      <tr id = "JAPAN">
+        <th scope="row" class="text-start">JAPAN</th>
+        <td><span class="cloud_pct"></span></td>
+        <td><span class="feels_like"></span></td>
+        <td><span class="humidity"></span></td>
+        <td><span class="max_temp"></span></td>
+        <td><span class="min_temp"></span></td>
+        <td><span class="sunrise"></span></td>
+        <td><span class="sunset"></span></td>
+        <td><span class="temp"></span></td>
+        <td><span class="wind_degrees"></span></td>
+        <td><span class="wind_speed"></span></td>
+      </tr>
+       </tbody>
+  </table>
+</div>
+
+<footer>
+  <h1>THANK YOU FOR WISITING :)</h1>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script> 
+</body>
+</html>
